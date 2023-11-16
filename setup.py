@@ -4,7 +4,6 @@ from typing import List
 hyphen_e = "-e."
 def get_requirements(file_path:str)->List:
     '''
-
     :param file_path:
     :return: Returns a list of requirements for the project
     '''
@@ -17,10 +16,10 @@ def get_requirements(file_path:str)->List:
     return requirements
 
 setup(
-    name= 'MLProject',
-    author= 'Aishwarya',
-    author_email= 'aishwarya.jauhari@gmail.com',
+    name='MLProject',
+    author='Aishwarya',
+    author_email='aishwarya.jauhari@gmail.com',
     version='0.0.1',
-    packages= find_packages(),
-    install_requires= get_requirements('requirements.txt')
+    packages=find_packages(),
+    install_requires=get_requirements('requirements.txt')
 )

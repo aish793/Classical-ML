@@ -1,4 +1,4 @@
 pandas
 numpy
 seaborn
--e. # to trigger the setup.py
+-e.
